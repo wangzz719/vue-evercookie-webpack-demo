@@ -3,6 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import Evercookie from './utils/evercookie'
+
+Vue.use(Evercookie)
 
 Vue.config.productionTip = false
 

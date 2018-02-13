@@ -84,13 +84,16 @@
 </template>
 
 <script>
+import EverCookieMixin from '../mixins/evercookie'
+
 export default {
   name: 'HelloWorld',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
-  }
+  },
+  mixins: [EverCookieMixin]
 }
 </script>
 
